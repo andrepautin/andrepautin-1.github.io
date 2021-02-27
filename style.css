@@ -3,6 +3,27 @@ body {
     margin-top: 50px;
 }
 
+p {
+    width: 500px;
+    border: 2px;
+    margin: auto;
+}
+
+p.a {
+    word-wrap: break-word;
+}
+
+li {
+    width: 400px;
+    border: 2px;
+    margin: auto;
+    text-align: left;
+}
+
+li.a {
+    word-wrap: break-word;
+}
+
 header {
     display: flex;
     position: fixed;
